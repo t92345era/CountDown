@@ -57,6 +57,15 @@ const Countdown: React.FC = () => {
       <button onClick={startCountdown} style={{ fontSize: '24px', padding: '10px 20px' }}>
         カウントダウンを始める
       </button>
+      <div 
+        style={{
+          position: 'fixed',
+          bottom: "4px",
+          left: "4px",
+        }}
+      >
+        音声：VOICEVOX：ずんだもん
+      </div>
     </div>
   );
 };
