@@ -49,7 +49,8 @@ const Countdown: React.FC = () => {
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <h1>カウントダウンアプリ</h1>
-      <div style={{ fontSize: '48px', margin: '20px 0' }}>
+      <div 
+        style={{ fontSize: '48px', margin: '20px 0' }}>
         {countdownIndex !== null && countdownIndex < countdownTexts.length
           ? countdownTexts[countdownIndex]
           : 'ボタンを押してカウントダウン開始！'}
